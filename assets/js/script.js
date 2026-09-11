@@ -1,6 +1,6 @@
-const menu=document.querySelector('.menu'),links=document.querySelector('.links'),theme=document.querySelector('.theme');
-if(localStorage.getItem('theme')==='dark')document.body.classList.add('dark');
-theme?.addEventListener('click',()=>{document.body.classList.toggle('dark');localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light')});
-menu?.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',open)});
-document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu?.setAttribute('aria-expanded','false')}));
+const nav=document.querySelector('.nav'), menu=document.querySelector('.menu'), theme=document.querySelector('.theme');
+menu?.addEventListener('click',()=>nav.classList.toggle('open'));
+document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+if(localStorage.getItem('theme')==='dark'){document.body.classList.add('dark');theme.textContent='Light'}
+theme?.addEventListener('click',()=>{document.body.classList.toggle('dark');const dark=document.body.classList.contains('dark');localStorage.setItem('theme',dark?'dark':'light');theme.textContent=dark?'Light':'Dark'});
 document.getElementById('year').textContent=new Date().getFullYear();
