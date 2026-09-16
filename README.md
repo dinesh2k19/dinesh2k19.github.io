@@ -1,12 +1,7 @@
-# dinesh2k19.github.io
+# Dr. Dinesh Kumar, M.Tech-Ph.D (Biotechnology)
 
-GitHub Pages website for Dr. Dinesh Kumar.
+Calmette & Yersin Pasteur Network Postdoctoral Fellow (PDF)
 
-## Publish
-1. Create a GitHub repository named `dinesh2k19.github.io`.
-2. Upload all files in this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, branch `main`, folder `/ (root)`.
-5. Visit https://dinesh2k19.github.io/
+Institut Pasteur Hellenique 
 
-No build step is required.
+Athens, Greece
