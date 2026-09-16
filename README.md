@@ -1,7 +1,7 @@
-# Dr. Dinesh Kumar, M.Tech-Ph.D (Biotechnology)
+## Dr. Dinesh Kumar, M.Tech-Ph.D (Biotechnology)
 
-Calmette & Yersin Pasteur Network Postdoctoral Fellow (PDF)
-Institut Pasteur Hellenique 
-Athens, Greece
+### Calmette & Yersin Pasteur Network Postdoctoral Fellow (PDF)
 
-Website: https://dinesh2k19.github.io/
+### Institut Pasteur Hellenique, Athens, Greece
+
+**Website:** https://dinesh2k19.github.io/
